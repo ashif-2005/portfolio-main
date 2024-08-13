@@ -439,19 +439,10 @@ body.active { overflow: hidden; }
   transition-delay: 0.5s;
 }
 
-.navbar-link::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 0;
-  height: 5px;
-  width: 0;
-  background: var(--raw-seinna);
-  transition: var(--transition-1);
+.navbar-link:hover {
+  border-bottom: solid #FD5C04 2px;
 }
 
-.navbar-link:is(:hover, :focus)::before { width: 100%; }
 
 
 

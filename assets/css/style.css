@@ -441,7 +441,8 @@ body.active { overflow: hidden; }
 }
 
 .navbar-link:hover {
-  border-bottom: solid #FD5C04 2px;
+  padding: 0px;
+  border-bottom: solid #FD5C04 3px;
 }
 
 
@@ -480,6 +481,40 @@ main { overflow-x: hidden; }
 
 .freelance{
   padding-bottom: 20px;
+}
+
+.fname{
+  color: #FD5C04;
+  font-size: 25px;
+  position: relative;
+  left: 350px;
+  letter-spacing: 5px;
+}
+
+.lname{
+  color: #FD5C04;
+  font-size: 25px;
+  position: relative;
+  left: 400px;
+  letter-spacing: 5px;
+}
+
+.contact{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.abt{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.first {
+  height: 100;
+  width: 100;
+  border: solid 2px #FD5C04;
 }
 
 h2.hero-title {
